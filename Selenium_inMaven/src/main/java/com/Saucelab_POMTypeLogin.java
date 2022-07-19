@@ -28,7 +28,13 @@ public class Saucelab_POMTypeLogin extends BaseClasses {
 		hp.login("standard_user");
 		InventoryPage ip = new InventoryPage(driver);
 		// intialize to use the method not necessary to declare anywhere
+		ip.findAllItems();
+		ip.findAllPrice();
 		ip.chooseItem();
+		ip.addtoCart();
+		ip.cartStatus();
+		//ip.AddAllItemsLessthan20(); yet to fix
+		ip.checkout();
 		
 		//
 

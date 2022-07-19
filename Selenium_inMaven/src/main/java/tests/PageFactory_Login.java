@@ -3,10 +3,7 @@ package tests;
 import org.junit.Test;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-
 import pageFactory.HomePage_PageFactory;
-
-
 
 public class PageFactory_Login {
 	 WebDriver driver;

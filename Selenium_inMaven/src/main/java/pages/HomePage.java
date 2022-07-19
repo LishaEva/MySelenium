@@ -32,6 +32,7 @@ public class HomePage {
 		//System.out.println(pm.getProperty("name"));
 		driver.findElement(password).sendKeys("secret_sauce");
 		driver.findElement(loginButton).click();
+		System.out.println("Login Successful");
 	}
 	
 	
